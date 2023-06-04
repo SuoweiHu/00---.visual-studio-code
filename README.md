@@ -29,12 +29,13 @@ See file [./configuration/settings/settings.json](./configuration/settings/setti
     -   [Blockman](./configuration/extension/block-man.json): Highlight Nested Code Blocks (Mark/Highlight code blocks)
 
 -   Code Formatting
-    -   Batch Rename: Batch rename files in the explorer inside a text editor
     -   Cursor Align: Aligns all cursors using spaces.
     -   [Increment Selection](): Increment selection with multiple cursors
+    -   Smart Column Indenter
+    -   Batch Rename: Batch rename files in the explorer inside a text editor
     -   Code Spell Checker
     -   Prettier - Code formatter
-
+    
 -   Other
     -   Draw.io Extension: This unofficial extension integrates Draw.io into VS Code.
     -   [Todo Tree](./configuration/extension/todo-tree.json): Show TODO, FIXME, etc. comment tags in a tree view
