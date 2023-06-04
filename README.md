@@ -4,9 +4,7 @@
 
 ## 🎨 Color Theme 
 
-![2023.06.05 - 01_20_19 -  [Typora-README.md] -](assets/2023.06.05%20-%2001_20_19%20-%20%20%5BTypora-README.md%5D%20-.jpg)
-
-Yello Custom Color Theme: [./configuration/theme/2023-06-05-yellow-custom.json](./configuration/theme/2023-06-05-yellow-custom.json)
+-   2023.06.05 - Custom Color Theme (Yellow based on Ayu): [./configuration/theme/2023-06-05-yellow-custom.json](./configuration/theme/2023-06-05-yellow-custom.json)
 
 
 
