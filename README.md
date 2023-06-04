@@ -2,21 +2,16 @@
 
 
 
-## 🎨 Color Theme 
+## 🎨 Color Theme
 
--   2023.06.05 - Custom Color Theme (Yellow based on Ayu): [./configuration/theme/2023-06-05-yellow-custom.json](./configuration/theme/2023-06-05-yellow-custom.json)
-
-
-
-
-
-
+-   2023.06.05 - Aye (with customization): [./configuration/theme](./configuration/theme/2023.06.05%20-%20ayu.json)
+-   2023.06.05 - Custom Color Theme (Yellow based on Ayu): [./configuration/theme/2023.06.05 yellow-custom.json](./configuration/theme/2023.06.05%20-%20yellow-custom.json)
 
 
 
 ## ⚙️ Setting
 
-See file [./configuration/settings/settings.json](./configuration/settings/settings.json)
+See folder [./configuration/settings](./configuration/settings)
 
 
 
@@ -35,7 +30,7 @@ See file [./configuration/settings/settings.json](./configuration/settings/setti
     -   Batch Rename: Batch rename files in the explorer inside a text editor
     -   Code Spell Checker
     -   Prettier - Code formatter
-    
+
 -   Other
     -   Draw.io Extension: This unofficial extension integrates Draw.io into VS Code.
     -   [Todo Tree](./configuration/extension/todo-tree.json): Show TODO, FIXME, etc. comment tags in a tree view
