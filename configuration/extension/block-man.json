@@ -1,0 +1,30 @@
+
+	// 	▢=============================================================================▢
+	/// BLOCK MAN
+	//  ▢===========================================================================▢
+
+	"blockman.n01LineHeight": 0,
+	"blockman.n24AnalyzeRoundBrackets": true,
+	"blockman.n23AnalyzeSquareBrackets": true,
+	"blockman.n28TimeToWaitBeforeRerenderAfterLastChangeEvent": 0.1,
+	"blockman.n04Sub05MinDistanceBetweenRightSideEdges": 4,
+	"blockman.n05CustomColorOfDepth0": "none",
+	"blockman.n21BorderRadius": 2,
+	"blockman.n32BlackListOfFileFormats": "",
+	"blockman.n27AlsoRenderBlocksInsideSingleLineAreas": true,
+	"blockman.n04Sub02ColorComboPresetForLightTheme": "none",
+	"blockman.n07CustomColorOfDepth2": "none",
+	"blockman.n09CustomColorOfDepth4": "none",
+	"blockman.n10CustomColorOfDepth5": "none",
+	"blockman.n12CustomColorOfDepth7": "none",
+	"blockman.n13CustomColorOfDepth8": "none",
+	"blockman.n15CustomColorOfDepth10": "none",
+	"blockman.n06CustomColorOfDepth1": "none",
+	"blockman.n11CustomColorOfDepth6": "none",
+	"blockman.n14CustomColorOfDepth9": "none",
+	"blockman.n17CustomColorOfFocusedBlock": "none",
+	"blockman.n20CustomColorOfDepth0Border": "none",
+	"blockman.n19CustomColorOfBlockBorder": "none",
+	"blockman.n08CustomColorOfDepth3": "none",
+	"blockman.n04Sub06AdditionalPaddingRight": 4,
+	"blockman.n18CustomColorOfFocusedBlockBorder": "#f9bb379a",
