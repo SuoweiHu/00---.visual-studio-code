@@ -21,8 +21,15 @@ See folder [./configuration/theme](./configuration/theme)
 -   2023.06.05 - Aye (with customization): [./configuration/theme](./configuration/theme/2023.06.05%20-%20ayu.json)
 -   2023.06.05 - Custom Color Theme (Yellow based on Ayu): [./configuration/theme/2023.06.05 yellow-custom.json](./configuration/theme/2023.06.05%20-%20yellow-custom.json)
 
-
 ## 💫 Extension
+
+### Custom 
+
+- Guide
+    - [VS code custom theme](https://code.visualstudio.com/docs/getstarted/themes)
+    - [Creating your first extension](https://code.visualstudio.com/api/get-started/your-first-extension)
+    - [Extension Guides - color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
+    - [Publishing Extension (vsce publish)](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
 ### Generic
 
