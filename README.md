@@ -4,26 +4,26 @@
 
 
 
-## ⚙️ Setting
+### ⚙️ Setting
 
 See folder [./configuration/settings](./configuration/settings)
 
 
-## ⌨️ Keybinding
+### ⌨️ Keybinding
 
 See folder [./configuration/keybindings](./configuration/keybindings)
 
 
-## 🎨 Color Theme
+### 🎨 Color Theme
 
 See folder [./configuration/theme](./configuration/theme)
 
 -   2023.06.05 - Aye (with customization): [./configuration/theme](./configuration/theme/2023.06.05%20-%20ayu.json)
 -   2023.06.05 - Custom Color Theme (Yellow based on Ayu): [./configuration/theme/2023.06.05 yellow-custom.json](./configuration/theme/2023.06.05%20-%20yellow-custom.json)
 
-## 💫 Extension
+### 💫 Extension
 
-### Custom 
+#### Custom Made
 
 - Guide
     - [VS code custom theme](https://code.visualstudio.com/docs/getstarted/themes)
@@ -31,7 +31,7 @@ See folder [./configuration/theme](./configuration/theme)
     - [Extension Guides - color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
     - [Publishing Extension (vsce publish)](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
-### Generic
+#### Generic
 
 -   Styling
     -   [Highlight Line](./configuration/extension/highlight-line.json):  Highlights the current line in the editor. Find your location in your editor easily.
@@ -53,8 +53,7 @@ See folder [./configuration/theme](./configuration/theme)
     -   GitHub Codespaces
 
 
-
-### Frontend
+#### Frontend
 
 -   Generic
     -   Auto Rename Tag: Auto rename paired HTML/XML tag
