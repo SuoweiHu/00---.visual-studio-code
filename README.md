@@ -1,8 +1,8 @@
 # Visual-Studio-Code
 
-
-
-
+<br>
+<hr>
+<br>
 
 ### ⚙️ Setting
 
@@ -36,6 +36,9 @@ See folder [./configuration/theme](./configuration/theme)
     - [Extension Guides - color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
     - [Publishing Extension (vsce publish)](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
+
+<br>
+<hr>
 <br>
 
 ### 💫 Extension ctd.
