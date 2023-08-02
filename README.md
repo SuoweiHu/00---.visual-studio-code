@@ -8,18 +8,19 @@
 
 See folder [./configuration/settings](./configuration/settings)
 
+<br>
 
 ### ⌨️ Keybinding
 
 See folder [./configuration/keybindings](./configuration/keybindings)
 
+<br>
 
 ### 🎨 Color Theme
 
 See folder [./configuration/theme](./configuration/theme)
 
--   2023.06.05 - Aye (with customization): [./configuration/theme](./configuration/theme/2023.06.05%20-%20ayu.json)
--   2023.06.05 - Custom Color Theme (Yellow based on Ayu): [./configuration/theme/2023.06.05 yellow-custom.json](./configuration/theme/2023.06.05%20-%20yellow-custom.json)
+<br>
 
 ### 💫 Extension
 
