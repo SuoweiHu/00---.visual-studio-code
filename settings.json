@@ -1,4 +1,20 @@
 {
+
+    // █████████████████████████████████████████████████████████████████████████████████
+    // █████████████████████████████████████████████████████████████████████████████████
+
+
+
+    // █████████████████████████████████████████████████████████████████████████████████
+    // █████████████████████████████████████████████████████████████████████████████████
+
+
+	// "sync.gist": "316d6099a9108e2405669ab5d91c7d31",
+	// "sync.autoUpload": true,
+	// "sync.autoDownload": true,
+	// "sync.quietSync": true,
+	// "editor.fontLigatures": true,
+	// "vim.disableExtension": true,
 	"files.autoSave": "afterDelay",
 	"security.workspace.trust.untrustedFiles": "open",
 	"security.workspace.trust.banner": "always",
