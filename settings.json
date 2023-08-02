@@ -2,174 +2,67 @@
 	"files.autoSave": "afterDelay",
 	"security.workspace.trust.untrustedFiles": "open",
 	"security.workspace.trust.banner": "always",
-	// SPELLING CHECK IGNORE WORDS
-	"cSpell.userWords": [
-        "Aitchison",
-        "archiasemibold",
-        "axios",
-        "bkup",
-        "Creath",
-        "Docsify",
-        "DOGL",
-        "elza",
-        "endfor",
-        "fieldset",
-        "fontawesome",
-        "fortawesome",
-        "fulltext",
-        "glautodrawable",
-        "gljpanel",
-        "jquery",
-        "linprog",
-        "mediun",
-        "MODELVIEW",
-        "Museo",
-        "ndigits",
-        "Soundex",
-        "Suowei",
-        "tailwindcss",
-        "Webflow",
-        "xlarge",
-        "xxlg"
-    ],
 
-    // █████████████████████████████████████████████████████████████████████████████████
-    // █████████████████████████████████████████████████████████████████████████████████
-    /* █████████                                                               █████████*/
-    // █████████         ____  __  ____   __     ____  ____  ____  ____        █████████
-    // █████████        (_  _)/  \(    \ /  \   (_  _)(  _ \(  __)(  __)       █████████
-    // █████████          )( (  O )) D ((  O )    )(   )   / ) _)  ) _)        █████████
-    // █████████         (__) \__/(____/ \__/    (__) (__\_)(____)(____)       █████████
-    /* █████████                                                               █████████*/
-    /* █████████                                                               █████████*/
-    // █████████████████████████████████████████████████████████████████████████████████
-    // █████████████████████████████████████████████████████████████████████████████████
-	/* █████████ */                                                         /* █████████ */
-	/* █████████ */ "todo-tree.general.enableFileWatcher": true,            /* █████████ */
-	/* █████████ */ "todo-tree.tree.flat": true,                            /* █████████ */
-	/* █████████ */ "todo-tree.tree.buttons.filter": false,                 /* █████████ */
-	/* █████████ */ "todo-tree.tree.expanded": true,                        /* █████████ */
-	/* █████████ */ "todo-tree.tree.showCountsInTree": true,                /* █████████ */
-	/* █████████ */ "todo-tree.tree.showCurrentScanMode": false,            /* █████████ */
-	/* █████████ */ "todo-tree.tree.buttons.viewStyle": false,              /* █████████ */
-	/* █████████ */ "todo-tree.tree.buttons.groupByTag": false,             /* █████████ */
-	/* █████████ */ "todo-tree.tree.buttons.expand": false,                 /* █████████ */
-	/* █████████ */ "todo-tree.tree.disableCompactFolders": true,           /* █████████ */
-	/* █████████ */                                                         /* █████████ */
-    /* █████████████████████████████████████████████████████████████████████████████████ */
-	/* █████████ */                                                         /* █████████ */
-	/* █████████ */ "todo-tree.tree.labelFormat":                           /* █████████ */
-    /* █████████ */     "${line}:${column} ${after}",                                  /* █████████ */
-	/* █████████ */                                                         /* █████████ */
-    /* █████████ */ "todo-tree.highlights.defaultHighlight":{               /* █████████ */
-    /* █████████ */     "foreground": "white",                              /* █████████ */
-    /* █████████ */     "background": "grey",                               /* █████████ */
-    /* █████████ */     "type": "tag-and-comment",                          /* █████████ */
-    /* █████████ */     "icon": "$(circle-large)"                           /* █████████ */
-    /* █████████ */ },                                                      /* █████████ */
-	/* █████████ */                                                         /* █████████ */
-    /* █████████████████████████████████████████████████████████████████████████████████ */
-	/* █████████ */                                                         /* █████████ */
-	/* █████████ */ "todo-tree.highlights.customHighlight": {               /* █████████ */
-    /* █████████ */     "COMPLETED": {                                      /* █████████ */
-    /* █████████ */         "foreground": "white",                          /* █████████ */
-    /* █████████ */         "background": "#AAD94D",                      /* █████████ */
-    /* █████████ */         "type": "tag-and-comment",                      /* █████████ */
-    /* █████████ */     	"icon": "$(pass)"                               /* █████████ */
-    /* █████████ */     },                                                  /* █████████ */
-    /* █████████ */     "TODO": {                                           /* █████████ */
-    /* █████████ */         "foreground": "white",                          /* █████████ */
-    /* █████████ */         "background": "#E6B451",                      /* █████████ */
-    /* █████████ */         "type": "whole-line",                           /* █████████ */
-    /* █████████ */     },                                                  /* █████████ */
-    /* █████████ */     "BUG": {                                            /* █████████ */
-    /* █████████ */         "foreground": "white",                          /* █████████ */
-    /* █████████ */         "background": "#F07178",                      /* █████████ */
-    /* █████████ */         "type": "whole-line",                           /* █████████ */
-    /* █████████ */     	"icon": "$(debug)"                              /* █████████ */
-    /* █████████ */     },                                                  /* █████████ */
-    /* █████████ */     "NOTE": {                                           /* █████████ */
-    /* █████████ */         "foreground": "white",                          /* █████████ */
-    /* █████████ */         "background": "#3DBAE6",                      /* █████████ */
-    /* █████████ */         "type": "tag-and-comment",                      /* █████████ */
-    /* █████████ */         "icon": "$(info)"                               /* █████████ */
-    /* █████████ */     }                                                   /* █████████ */
-    /* █████████ */ },                                                      /* █████████ */
-	/* █████████ */                                                         /* █████████ */
-    /* █████████████████████████████████████████████████████████████████████████████████ */
-	/* █████████ */                                                         /* █████████ */
-	/* █████████ */ "todo-tree.general.tags": [                             /* █████████ */
-    /* █████████ */     "BUG",                                              /* █████████ */
-	/* █████████ */ 	"NOTE",                                             /* █████████ */
-	/* █████████ */ 	"TODO",                                             /* █████████ */
-	/* █████████ */ 	"COMPLETED",                                        /* █████████ */
-	/* █████████ */ 	"WARNING",                                          /* █████████ */
-	/* █████████ */ 	"FIXME",                                            /* █████████ */
-	/* █████████ */ 	"FIX",                                              /* █████████ */
-	/* █████████ */ 	"[ ]",                                              /* █████████ */
-	/* █████████ */ 	"[x]",                                              /* █████████ */
-	/* █████████ */ 	"[√]",                                              /* █████████ */
-	/* █████████ */ 	"COMEBACK",                                         /* █████████ */
-	/* █████████ */ 	"ERROR",                                            /* █████████ */
-	/* █████████ */ 	"PENDING",                                          /* █████████ */
-	/* █████████ */ 	"INFO",                                             /* █████████ */
-	/* █████████ */ ],                                                      /* █████████ */
-	/* █████████ */ "todo-tree.general.tagGroups": {                        /* █████████ */
-    /* █████████ */     "BUG"       :["BUG", "WARNING", "ERROR", "FIXME", "FIX"],
-    /* █████████ */     "TODO"      :["TODO", "COMEBACK", "[ ]", "PENDING"],
-    /* █████████ */     "COMPLETED" :["COMPLETED", "[x]", "[√]"],
-    /* █████████ */     "NOTE"       :["NOTE", "INFO", ""]
-	/* █████████ */ },                                                    /* █████████ */
-	/* █████████ */ /*"todo-tree.highlights.backgroundColourScheme": [   */ /* █████████ */
-    /* █████████ */ /*    "red",                                         */ /* █████████ */
-	/* █████████ */ /*	"orange",                                        */ /* █████████ */
-	/* █████████ */ /*	"yellow",                                        */ /* █████████ */
-	/* █████████ */ /*	"green",                                         */ /* █████████ */
-	/* █████████ */ /*	"blue",                                          */ /* █████████ */
-	/* █████████ */ /*	"indigo",                                        */ /* █████████ */
-	/* █████████ */ /*	"violet",                                        */ /* █████████ */
-	/* █████████ */ /*],                                                 */ /* █████████ */
-    /* █████████ */                                                         /* █████████ */
-    // █████████████████████████████████████████████████████████████████████████████████
-    // █████████████████████████████████████████████████████████████████████████████████
-    // ↓
-    // ↓
-    // ↓
-    // ↓
-    // ↓
-    // ↓
-    // ↓
-    // ↓
-    // ↓
-    // ↓
-    // ↓
-    // ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-    // ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-    /* █████████                                                                                                                █████████*/
-    // █████████     _  _  ____        ___  __  ____  ____    ____  _  _  ____  _  _  ____     ___  __   __     __  ____        █████████
-    // █████████    / )( \/ ___) ___  / __)/  \(    \(  __)  (_  _)/ )( \(  __)( \/ )(  __)   / __)/  \ (  )   /  \(  _ \       █████████
-    // █████████    \ \/ /\___ \(___)( (__(  O )) D ( ) _)     )(  ) __ ( ) _) / \/ \ ) _)   ( (__(  O )/ (_/\(  O ))   /       █████████
-    // █████████     \__/ (____/      \___)\__/(____/(____)   (__) \_)(_/(____)\_)(_/(____)   \___)\__/ \____/ \__/(__\_)       █████████
-    /* █████████                                                                                                                █████████*/
-    // ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-    // ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-    /* █████████  https://code.visualstudio.com/api/references/theme-color                                                      █████████*/
-    /* █████████  https://patorjk.com/software/taag/#p=display&f=Graceful&t=VS-CODE%20Theme%20Color                             █████████*/
-    /* █████████                                                                                                                █████████*/
-	/* █████████ */ "workbench.colorTheme"                          : "Ayu Light",                                            /* █████████ */
-    /* █████████                                                                                                                █████████*/
-	/* █████████ */ "workbench.preferredLightColorTheme"            : "Ayu Light",                                           /* █████████ */
-	/* █████████ */ "workbench.preferredHighContrastLightColorTheme": "Ayu Light",                                           /* █████████ */
-	/* █████████ */ "workbench.preferredDarkColorTheme"             : "Ayu Dark",                                            /* █████████ */
-	/* █████████ */ "workbench.preferredHighContrastColorTheme"     : "Ayu Dark",                                            /* █████████ */
-    /* █████████                                                                                                                █████████*/
-    
+    // Color Theme
+    "workbench.colorTheme"                           : "Ayu Light",
+    "workbench.preferredLightColorTheme"             : "Ayu Light",
+    "workbench.preferredDarkColorTheme"              : "Ayu Dark",
+
+     // TODO Tree
+     "todo-tree.tree.flat": true,
+     "todo-tree.tree.buttons.filter": false,
+     "todo-tree.tree.expanded": true,
+     "todo-tree.tree.showCountsInTree": true,
+     "todo-tree.tree.showCurrentScanMode": false,
+     "todo-tree.tree.buttons.viewStyle": false,
+     "todo-tree.tree.buttons.groupByTag": false,
+     "todo-tree.tree.buttons.expand": false,
+     "todo-tree.tree.disableCompactFolders": true,
+     "todo-tree.tree.labelFormat":
+         "${line}:${column} ${after}",
+     "todo-tree.highlights.defaultHighlight":{
+         "foreground": "white",
+         "background": "grey",
+         "type": "tag-and-comment",
+         "icon": "$(circle-large)"
+     },
+     "todo-tree.highlights.customHighlight": {
+         "COMPLETED": {
+             "foreground": "#FFFFFF",
+             "background": "#AAD94D",
+             "type": "tag-and-comment",
+         	"icon": "$(pass)"
+         },
+         "TODO": {
+             "foreground": "#FFFFFF",
+             "background": "#E6B451",
+             "type": "whole-line",
+         },
+         "BUG": {
+             "foreground": "#FFFFFF",
+             "background": "#F07178",
+             "type": "whole-line",
+         	"icon": "$(debug)"
+         },
+         "NOTE": {
+             "foreground": "#FFFFFF",
+             "background": "#3DBAE6",
+             "type": "tag-and-comment",
+             "icon": "$(info)"
+         }
+     },
+     "todo-tree.general.tags": ["BUG","NOTE","TODO","COMPLETED","WARNING","FIXME","FIX","[ ]","[x]","[√]","COMEBACK","ERROR","PENDING","INFO",],
+     "todo-tree.general.tagGroups": {
+         "BUG"       :["BUG", "WARNING", "ERROR", "FIXME", "FIX"],
+         "TODO"      :["TODO", "COMEBACK", "[ ]", "PENDING"],
+         "COMPLETED" :["COMPLETED", "[x]", "[√]"],
+         "NOTE"       :["NOTE", "INFO", ""]
+     },
+
     "explorer.incrementalNaming": "smart",
     "editor.stickyScroll.enabled": true,
 	"editor.occurrencesHighlight": false,
     "editor.cursorBlinking": "expand",
-
-	// WINDOW / DEBUG / ZEN / OTHER
 	"window.restoreWindows": "none",
 	"window.autoDetectColorScheme": true,
 	"zenMode.restore": false,
@@ -203,18 +96,12 @@
 	"editor.autoClosingQuotes": "never",
 	"editor.autoClosingOvertype": "never",
 	"editor.accessibilitySupport": "off",
-	"editor.quickSuggestions": {
-		"strings": true
-    },
+	"editor.quickSuggestions": {"strings": true},
 	"workbench.editor.untitled.hint": "hidden",
 	"workbench.startupEditor": "newUntitledFile",
 	"workbench.editor.splitOnDragAndDrop": false,
 	"workbench.reduceMotion": "off",
 	"workbench.welcomePage.walkthroughs.openOnInstall": false,
-// ations": {
-//         "*.ipynb": "jupyter-notebook",
-//         "*.class": "default"
-//     },
 
 	//TERMINAL
     "terminal.integrated.fontFamily": "CaskaydiaCove NFM",
@@ -230,18 +117,8 @@
     "terminal.integrated.tabs.showActiveTerminal": "never",
 	"terminal.integrated.smoothScrolling": true,
 	"terminal.integrated.persistentSessionScrollback": 100,
-	"terminal.integrated.env.osx": {
-        "FIG_NEW_SESSION": "1"
-    },
+	"terminal.integrated.env.osx": {"FIG_NEW_SESSION": "1"},
 	"terminal.integrated.inheritEnv": true,
-	// "terminal.integrated.wordWrap":"off",
-	// "terminal.integrated.cwd":"/Users/suowei_hu",
-	// "terminal.integrated.automationProfile.osx": {},
-	// "terminal.integrated.env.osx":["source /Users/suoweihu/.zshrc;"],
-	// "terminal.integrated.env.osx": {	},
-	// "terminal.integrated.shellArgs.osx": [],
-	// "terminal.integrated.defaultProfile.osx": "",
-	// "terminal.integrated.profiles.osx": {},
 
 	//GIT
 	"git.enableSmartCommit": true,
@@ -550,32 +427,9 @@
     "chatgpt.emailAddress": "suowei.h@gmail.com",
     "chatgpt.gpt3.apiKey": "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",
     "git.openRepositoryInParentFolders": "never",
-    "emeraldwalk.runonsave": {
-        "commands": [
-            {
-                "match": ".*",
-                "isAsync": true,
-                "cmd": "echo 'I run for all files.'"
-            },
-            {
-                "match": "\\.txt$",
-                "cmd": "echo 'I am a .txt file ${file}.'"
-            },
-            {
-                "match": "\\.js$",
-                "cmd": "echo 'I am a .js file ${file}.'"
-            },
-            {
-                "match": ".*",
-                "cmd": "echo 'I am ${env.USERNAME}.'"
-            }
-        ]
-    },
     "[scss]": {
         "editor.defaultFormatter": "vscode.css-language-features"
     },
-    "jupyter.interactiveWindow.creationMode": "perFile",
-    "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "json.format.enable": false,
     "editor.inlineSuggest.enabled": true,
     "explorer.confirmDragAndDrop": false,
@@ -601,7 +455,36 @@
     "workbench.activityBar.visible": false,
 
 
-	// "markdown.styles": [
-		// "file:///Users/suowei_hu/Documents/Ç  Zz Markdown:Typora CSS Style Sheets/"
-	// ]
+
+
+    // Custom Spelling Check Keyword
+    "cSpell.userWords": [
+        "Aitchison",
+        "archiasemibold",
+        "axios",
+        "bkup",
+        "Creath",
+        "Docsify",
+        "DOGL",
+        "elza",
+        "endfor",
+        "fieldset",
+        "fontawesome",
+        "fortawesome",
+        "fulltext",
+        "glautodrawable",
+        "gljpanel",
+        "jquery",
+        "linprog",
+        "mediun",
+        "MODELVIEW",
+        "Museo",
+        "ndigits",
+        "Soundex",
+        "Suowei",
+        "tailwindcss",
+        "Webflow",
+        "xlarge",
+        "xxlg"
+    ],
 }
