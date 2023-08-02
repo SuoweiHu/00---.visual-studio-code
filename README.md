@@ -20,6 +20,10 @@ See folder [./configuration/keybindings](./configuration/keybindings)
 
 See folder [./configuration/theme](./configuration/theme)
 
+
+
+<br>
+<hr>
 <br>
 
 ### 💫 Extension
@@ -32,6 +36,9 @@ See folder [./configuration/theme](./configuration/theme)
     - [Extension Guides - color theme](https://code.visualstudio.com/api/extension-guides/color-theme)
     - [Publishing Extension (vsce publish)](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
+<br>
+
+### 💫 Extension ctd.
 #### Generic
 
 -   Styling
