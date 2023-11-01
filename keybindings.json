@@ -1,4 +1,3 @@
-// Empty
 [
     // =================================================================
     // APP level navigation to settings / keybindings
@@ -10,7 +9,6 @@
         "key": "cmd+k cmd+n",
         "command": "workbench.action.files.showOpenedFileInNewWindow"
     },
-    {"key": "cmd+k cmd+\\",                 "command": "toggleVim"                                                                                                                                                                                                                                                    },
     {
         "key": "escape escape",
         "command": "-workbench.action.exitZenMode",
@@ -1100,7 +1098,7 @@
         "command": "workbench.action.openSettingsJson"
     },
     {
-        "key": "shift+cmd+k",
+        "key": "cmd+k shift+cmd+k",
         "command": "workbench.action.toggleTabsVisibility"
     },
     {
@@ -1625,11 +1623,6 @@
         "when": "reference-list.hasResult && references-view.canNavigate"
     },
     {
-        "key": "alt+cmd+r",
-        "command": "-revealFileInOS",
-        "when": "!editorFocus"
-    },
-    {
         "key": "shift+cmd+r",
         "command": "-reactSnippets.search",
         "when": "editorTextFocus"
@@ -1812,10 +1805,6 @@
         "command": "workbench.action.debug.selectandstart"
     },
     {
-        "key": "cmd+e",
-        "command": "workbench.view.extension.vscode-edge-devtools-view"
-    },
-    {
         "key": "shift+cmd+8",
         "command": "-fileFocusExtension.addGroupResource",
         "when": "editorTextFocus"
@@ -1875,7 +1864,7 @@
         "command": "workbench.view.extension.vscode-chatgpt-view-container"
     },
     {
-        "key": "shift+cmd+f",
+        "key": "cmd+k ctrl+shift+alt+cmd+f",
         "command": "workbench.view.search"
     },
     {
@@ -1890,10 +1879,6 @@
     {
         "key": "ctrl+shift+cmd+e",
         "command": "outline.focus"
-    },
-    {
-        "key": "cmd+k cmd+p",
-        "command": "workbench.actions.view.problems"
     },
     {
         "key": "cmd+k cmd+t",
@@ -1984,7 +1969,129 @@
         "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive"
     },
     {
+        "key": "cmd+k cmd+p",
+        "command": "gotofolder.quickOpenFolder"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorDown"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorRight"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorLeft"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "-workbench.action.splitEditorUp"
+    },
+    {
+        "key": "cmd+k cmd+\\",
+        "command": "yo1dog.cursor-align.alignCursors",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-toggleSearchEditorRegex",
+        "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-toggleFindRegex",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-toggleSearchRegex",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "revealFileInOS"
+    },
+    {
+        "key": "alt+cmd+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+cmd+r",
+        "command": "revealFileInOS"
+    },
+    {
+        "key": "cmd+k shift+cmd+p",
+        "command": "workbench.action.files.openFolder"
+    },
+    {
+        "key": "f8",
+        "command": "workbench.panel.markers.view.focus"
+    },
+    {
+        "key": "cmd+k f2",
+        "command": "extension.renameBatch"
+    },
+    {
+        "key": "cmd+k f2",
+        "command": "-togglePeekWidgetFocus",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+        "key": "cmd+k shift+cmd+enter",
+        "command": "remove-empty-lines.inSelection"
+    },
+    {
+        "key": "shift+cmd+f",
+        "command": "workbench.view.search.focus"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "ctrl+cmd+f",
+        "command": "workbench.action.toggleFullScreen"
+    },
+    {
+        "key": "cmd+k shift+cmd+j",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "breadcrumbs.toggle"
+    },
+    {
+        "key": "cmd+e",
+        "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+        "when": "accessibilityHelpIsShown"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.files.action.focusOpenEditorsView"
+    },
+    {
+        "key": "cmd+[",
+        "command": "workbench.files.action.collapseExplorerFolders",
+        "when": "filesExplorerFocus"
+    },
+    {
         "key": "cmd+t",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "command": "workbench.action.createTerminalEditor"
     }
 ]
