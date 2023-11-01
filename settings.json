@@ -82,11 +82,8 @@
 	"editor.guides.indentation": false,
 	"editor.guides.bracketPairs": false,
 	"editor.hover.sticky": false,
-	"editor.minimap.scale": 3,
-	"editor.minimap.enabled": false,
-	"editor.autoSurround": "never",
-	"editor.hideCursorInOverviewRuler": true,
-	"editor.overviewRulerBorder": false,
+    "editor.minimap.scale": 3,
+    "editor.autoSurround": "never",
 	"editor.rulers": [],
 	"editor.tabCompletion": "onlySnippets",
 	"editor.cursorSmoothCaretAnimation": "on",
@@ -102,9 +99,9 @@
 	"workbench.editor.splitOnDragAndDrop": false,
 	"workbench.reduceMotion": "off",
 	"workbench.welcomePage.walkthroughs.openOnInstall": false,
-
 	//TERMINAL
     "terminal.integrated.fontFamily": "CaskaydiaCove NFM",
+    // "terminal.integrated.fontFamily": "Fira Code",
     "terminal.integrated.gpuAcceleration": "auto",
 	"terminal.integrated.defaultProfile.osx": "zsh",
 	"terminal.integrated.fontSize": 13,
@@ -117,7 +114,9 @@
     "terminal.integrated.tabs.showActiveTerminal": "never",
 	"terminal.integrated.smoothScrolling": true,
 	"terminal.integrated.persistentSessionScrollback": 100,
-	"terminal.integrated.env.osx": {"FIG_NEW_SESSION": "1"},
+	"terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
 	"terminal.integrated.inheritEnv": true,
 
 	//GIT
@@ -360,7 +359,7 @@
 	],
 	"diffEditor.ignoreTrimWhitespace": false,
 	"window.openFoldersInNewWindow": "off",
-	"window.title": "█ ฅ^•ﻌ•^ฅ  █  ${profileName} █ がんばれ! █",
+	"window.title": "${rootName}",
 	"window.openFilesInNewWindow": "on",
 	"java.inlayHints.parameterNames.enabled": "none",
 	"editor.inlayHints.padding": true,
@@ -386,8 +385,6 @@
     "debug.console.closeOnEnd": false,
     "search.showLineNumbers": true,
     "editor.smoothScrolling": true,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 10,
     "editor.stickyScroll.maxLineCount": 8,
     "workbench.editor.sharedViewState": true,
@@ -413,7 +410,6 @@
     "workbench.editor.tabSizing": "shrink",
     "files.hotExit": "onExitAndWindowClose",
     "workbench.editor.closeOnFileDelete": true,
-    "workbench.iconTheme": "easy-icons",
     "markdown.editor.drop.enabled": false,
     "editor.dropIntoEditor.enabled": false,
     "workbench.editor.closeEmptyGroups": false,
@@ -421,8 +417,7 @@
     "material-ui-snippets.showNotesOnStartup": false,
     "vscode-edge-devtools.browserFlavor": "Default",
     "vscode-edge-devtools.showWorkers": true,
-    "php.validate.executablePath": "/Applications/MAMP/bin/php/php8.1.0/bin/php",
-    "explorer.compactFolders": false,
+    "php.validate.executablePath": "/opt/homebrew/bin/PHP",
     "explorer.confirmUndo": "verbose",
     "chatgpt.emailAddress": "suowei.h@gmail.com",
     "chatgpt.gpt3.apiKey": "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",
@@ -434,7 +429,6 @@
     "editor.inlineSuggest.enabled": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "explorer.sortOrder": "mixed",
     "hediet.vscode-drawio.resizeImages": true,
     "[twig]": {
         "editor.defaultFormatter": "mblode.twig-language-2"
@@ -446,14 +440,15 @@
         "scminput": false
     },
     "terminal.external.osxExec": "/Applications/Warp.app",
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, 'MesloLGM Nerd Font'",
     "terminal.integrated.tabs.location": "left",
     "terminal.integrated.tabs.hideCondition": "singleGroup",
     "workbench.list.smoothScrolling": true,
     "terminal.integrated.fastScrollSensitivity": 1,
-    "workbench.layoutControl.enabled": false,
-    "workbench.activityBar.visible": false,
 
+
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    //"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, 'MesloLGM Nerd Font'",
 
 
 
@@ -464,27 +459,61 @@
         "axios",
         "bkup",
         "Creath",
+        "datetime",
         "Docsify",
         "DOGL",
+        "drush",
         "elza",
         "endfor",
         "fieldset",
         "fontawesome",
         "fortawesome",
         "fulltext",
+        "gameplay",
         "glautodrawable",
         "gljpanel",
+        "gradshow",
         "jquery",
         "linprog",
         "mediun",
         "MODELVIEW",
         "Museo",
         "ndigits",
+        "Pinterest",
+        "Playcentric",
+        "Playtesters",
+        "Playtesting",
         "Soundex",
+        "stephanieslater",
         "Suowei",
         "tailwindcss",
         "Webflow",
+        "Webform",
         "xlarge",
         "xxlg"
     ],
+    "cSpell.ignoreWords": [
+        "ANZBAU",
+        "MXXX"
+    ],
+    "editor.minimap.enabled": false,
+    "html.autoCreateQuotes": false,
+    "php.executablePath": "/opt/homebrew/bin/PHP",
+    "explorer.sortOrder": "type",
+    "explorer.compactFolders": false,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "markdown.copyFiles.destination": {
+        "/docs/**/*": "images/${documentBaseName/(.).*/$1/}/"
+    },
+    "workbench.editor.tabCloseButton": "off",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.visible": false,
+    "breadcrumbs.filePath": "last",
+    "workbench.statusBar.visible": false,
+    "terminal.integrated.tabs.title": "terminal - [${process}] - ${cwd}"
 }
