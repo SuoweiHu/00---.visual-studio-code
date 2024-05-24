@@ -1,13 +1,10 @@
+// Empty
 [
     // =================================================================
     // APP level navigation to settings / keybindings
     {
         "key": "cmd+k cmd+k",
         "command": "workbench.action.openGlobalKeybindings"
-    },
-    {
-        "key": "cmd+k cmd+n",
-        "command": "workbench.action.files.showOpenedFileInNewWindow"
     },
     {
         "key": "escape escape",
@@ -42,15 +39,9 @@
     // ================================================================================
     // Switching between the bottom panels
     {
-        "key": "cmd+2",
-        "command": "workbench.debug.action.focusRepl",
-        "when": "panelFocus"
-    },
-    {
-        "key": "shift+cmd+l",
-        "command": "workbench.action.toggleSidebarVisibility"
-    }, // left
-    {"key": "shift+cmd+a",            "command": "workbench.action.toggleActivityBarVisibility"                                                                                                                                                                                                                 }, // left activty
+        "key": "shift+cmd+a",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    }, // left activty
     {
         "key": "shift+cmd+h",
         "command": "workbench.action.toggleAuxiliaryBar"
@@ -356,10 +347,6 @@
     {
         "key": "ctrl+shift+m",
         "command": "-editor.action.toggleTabFocusMode"
-    },
-    {
-        "key": "ctrl+shift+cmd+n",
-        "command": "workbench.action.files.showOpenedFileInNewWindow"
     },
     {
         "key": "cmd+]",
@@ -976,10 +963,6 @@
         "when": "workbench.view.search.active && neverMatch =~ /doesNotMatch/"
     },
     {
-        "key": "shift+cmd+d",
-        "command": "editor.action.nextSelectionMatchFindAction"
-    },
-    {
         "key": "shift+cmd+k",
         "command": "-editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
@@ -1098,10 +1081,6 @@
         "command": "workbench.action.openSettingsJson"
     },
     {
-        "key": "cmd+k shift+cmd+k",
-        "command": "workbench.action.toggleTabsVisibility"
-    },
-    {
         "key": "ctrl+cmd+f",
         "command": "-workbench.action.toggleFullScreen",
         "when": "!isIOS"
@@ -1217,18 +1196,8 @@
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
     {
-        "key": "ctrl+tab",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
-    },
-    {
         "key": "shift+cmd+]",
         "command": "-workbench.action.terminal.focusNext",
-        "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
-    },
-    {
-        "key": "ctrl+shift+tab",
-        "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
     },
     {
@@ -1250,11 +1219,6 @@
         "key": "shift+alt+a",
         "command": "-editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "cmd+k cmd+w",
-        "command": "workbench.action.terminal.killAll",
-        "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
     },
     {
         "key": "cmd+w",
@@ -1881,10 +1845,6 @@
         "command": "outline.focus"
     },
     {
-        "key": "cmd+k cmd+t",
-        "command": "workbench.action.terminal.openNativeConsole"
-    },
-    {
         "key": "ctrl+cmd+l",
         "command": "workbench.profiles.actions.switchProfile"
     },
@@ -2048,10 +2008,6 @@
     },
     {
         "key": "shift+cmd+e",
-        "command": "workbench.files.action.focusFilesExplorer"
-    },
-    {
-        "key": "shift+cmd+e",
         "command": "-workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
@@ -2073,10 +2029,6 @@
         "command": "workbench.action.toggleStatusbarVisibility"
     },
     {
-        "key": "shift+cmd+k",
-        "command": "breadcrumbs.toggle"
-    },
-    {
         "key": "cmd+e",
         "command": "-editor.action.toggleScreenReaderAccessibilityMode",
         "when": "accessibilityHelpIsShown"
@@ -2091,7 +2043,132 @@
         "when": "filesExplorerFocus"
     },
     {
+        "key": "cmd+k cmd+v",
+        "command": "toggleVim"
+    },
+    {
+        "key": "cmd+k t",
+        "command": "-notebook.cell.collapseCellOutput",
+        "when": "notebookCellHasOutputs && notebookCellListFocused && !inputFocus && !notebookCellOutputIsCollapsed"
+    },
+    {
+        "key": "cmd+k t",
+        "command": "-notebook.cell.expandCellOutput",
+        "when": "notebookCellListFocused && notebookCellOutputIsCollapsed"
+    },
+    {
+        "key": "cmd+k t",
+        "command": "timeline.focus"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "workbench.action.hideEditorTabs"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "workbench.debug.action.toggleRepl",
+        "when": "workbench.panel.repl.view.active"
+    },
+    {
+        "key": "alt+cmd+d",
+        "command": "workbench.view.extension.bookmarks"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "bookmarks.toggleLabeled"
+    },
+    {
+        "key": "cmd+h",
+        "command": "timeline.focus"
+    },
+    {
         "key": "cmd+t",
-        "command": "workbench.action.createTerminalEditor"
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+1",
+        "command": "-openInDefaultBrowser.openInDefaultBrowser",
+        "when": "resourceExtname == '.pdf' || resourceLangId == 'html' || resourceLangId == 'xml'"
+    },
+    {
+        "key": "cmd+3",
+        "command": "-workbench.action.focusThirdEditorGroup"
+    },
+    {
+        "key": "cmd+4",
+        "command": "-workbench.action.focusFourthEditorGroup"
+    },
+    {
+        "key": "cmd+5",
+        "command": "-workbench.action.focusFifthEditorGroup"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "alt+cmd+backspace",
+        "command": "-deleteFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-selectAllSearchEditorMatches",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-addCursorsAtSearchResults",
+        "when": "fileMatchOrMatchFocus && searchViewletVisible"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "workbench.files.action.focusFilesExplorer"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "-workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "-editor.action.defineKeybinding",
+        "when": "resource == 'vscode-userdata:/Users/suowei_hu/Library/Application%20Support/Code/User/keybindings.json'"
+    },
+    {
+        "key": "ctrl+shift+cmd+n",
+        "command": "workbench.action.moveEditorToNewWindow"
+    },
+    {
+        "key": "cmd+k cmd+n",
+        "command": "-git.unstageSelectedRanges",
+        "when": "isInDiffEditor && !operationInProgress"
+    },
+    {
+        "key": "ctrl+cmd+n",
+        "command": "workbench.action.moveEditorToNewWindow"
+    },
+    {
+        "key": "cmd+k cmd+n",
+        "command": "workbench.action.moveEditorToNewWindow"
+    },
+    {
+        "key": "cmd+k cmd+t",
+        "command": "workbench.action.createTerminalEditorSide"
+    },
+    {
+        "key": "cmd+k cmd+w",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "alt+cmd+t",
+        "command": "-workbench.action.closeOtherEditors"
     }
 ]
