@@ -1,12 +1,106 @@
 {
-	"files.autoSave": "afterDelay",
-	"security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.untrustedFiles": "open",
 	"security.workspace.trust.banner": "always",
 
     // Color Theme
     "workbench.colorTheme"                           : "Ayu Light",
     "workbench.preferredLightColorTheme"             : "Ayu Light",
     "workbench.preferredDarkColorTheme"              : "Ayu Dark",
+
+    //Color Customization
+	"workbench.colorCustomizations": {
+        "[Ayu Dark]": {
+            "sideBar.background":                          "#c2a057",
+            "sideBarTitle.foreground":                     "#c2a057",
+            "activityBar.background":                      "#c2a057",
+            "titleBar.activeBackground":                   "#c2a057",
+            "titleBar.inactiveBackground":                 "#c2a057",
+            "titleBar.activeForeground":                   "#c2a057",
+            "titleBar.inactiveForeground":                 "#c2a057",
+            "sideBarSectionHeader.background":             "#c2a057",
+            "sideBarSectionHeader.border":                 "#c2a057",
+            "statusBar.background":                        "#c2a057",
+            "panel.background":                            "#c2a057",
+            "terminal.background":                         "#c2a057",
+            "statusBar.noFolderBackground" :               "#c2a057",
+            "statusBar.debuggingBackground":               "#c2a057",
+            "tab.activeBackground":                        "#927841",
+            "tab.activeBorder":                            "#927841",
+            "tab.activeBorderTop":                         "#927841",
+            "tab.inactiveForeground":                      "#C5C5C5",
+            "tab.activeForeground":                        "#C5C5C5",
+            "tab.activeModifiedBorder":                    "#FF6362",
+            "tab.inactiveModifiedBorder":                  "#FF6362",
+            "tab.unfocusedActiveModifiedBorder":           "#FF6362",
+            "tab.unfocusedInactiveModifiedBorder":         "#FF6362",
+            "settings.modifiedItemIndicator":              "#FF6362",
+            "icon.foreground":                             "#000000",
+            "sideBar.foreground":                          "#000000",
+            "gitDecoration.modifiedResourceForeground":    "#000000",
+            "gitDecoration.deletedResourceForeground":     "#000000",
+            "gitDecoration.untrackedResourceForeground":   "#000000",
+            "gitDecoration.ignoredResourceForeground":     "#000000",
+            "gitDecoration.conflictingResourceForeground": "#000000",
+            "gitDecoration.submoduleResourceForeground":   "#000000",
+            "sideBar.border":                              "#000000",
+            "panelTitle.inactiveForeground":               "#000000",
+            "panelTitle.activeForeground":                 "#000000",
+            "sideBarSectionHeader.foreground":             "#000000",
+            "statusBar.foreground":                        "#000000",
+            "statusBar.border":                            "#000000",
+            "panelTitle.activeBorder":                     "#000000",
+        },
+        "[Ayu Light]": {
+            // "button.background":                           "#fff9eb",
+            // "button.border":                               "#ffedc7",
+            // "button.foreground":                           "#E7D7B9",
+            // "button.hoverBackground":                      "#ffb300",
+            // "inputOption.activeBackground":                "#fff9eb",
+            // "inputOption.activeForeground":                "#8B9198",
+            // "input.border":                                "#ffd981",
+            // "input.background":                            "#fff9eb",
+            "inputOption.activeBorder":                    "#ffb300",
+            "sideBarSectionHeader.background":             "#ffedc7",
+            "sideBarSectionHeader.border":                 "#ffedc7",
+            "titleBar.activeBackground":                   "#ffedc7",
+            "titleBar.inactiveBackground":                 "#ffedc7",
+            "titleBar.activeForeground":                   "#ffedc7",
+            "titleBar.inactiveForeground":                 "#ffedc7",
+            "sideBarTitle.foreground":                     "#ffedc7",
+            "sideBar.background":                          "#ffedc7",
+            "panel.background":                            "#ffedc7",
+            "terminal.background":                         "#ffedc7",
+            "statusBar.background":                        "#ffedc7",
+            "tab.activeBorder":                            "#ffedc7",
+            "tab.activeBorderTop":                         "#ffedc7",
+            "tab.activeBackground":                        "#ffedc7",
+            "activityBar.background":                      "#ffedc7",
+            "statusBar.noFolderBackground" :               "#ffedc7",
+            "statusBar.debuggingBackground":               "#ffedc7",
+            "tab.activeModifiedBorder":                    "#FF6362",
+            "tab.inactiveModifiedBorder":                  "#FF6362",
+            "tab.unfocusedActiveModifiedBorder":           "#FF6362",
+            "tab.unfocusedInactiveModifiedBorder":         "#FF6362",
+            "settings.modifiedItemIndicator":              "#FF6362",
+            "activityBar.border":                          "#8B9198",
+            "titleBar.border":                             "#8B9198",
+            "sideBar.foreground":                          "#8B9198",
+            "gitDecoration.modifiedResourceForeground":    "#8B9198",
+            "gitDecoration.deletedResourceForeground":     "#8B9198",
+            "gitDecoration.untrackedResourceForeground":   "#8B9198",
+            "gitDecoration.ignoredResourceForeground":     "#8B9198",
+            "gitDecoration.conflictingResourceForeground": "#8B9198",
+            "gitDecoration.submoduleResourceForeground":   "#8B9198",
+            "sideBar.border":                              "#8B9198",
+            "panelTitle.inactiveForeground":               "#8B9198",
+            "panelTitle.activeForeground":                 "#8B9198",
+            "sideBarSectionHeader.foreground":             "#8B9198",
+            "statusBar.foreground":                        "#8B9198",
+            "statusBar.border":                            "#8B9198",
+            "panelTitle.activeBorder":                     "#8B9198",
+
+        }
+    },
 
      // TODO Tree
      "todo-tree.tree.flat": true,
@@ -35,8 +129,8 @@
          },
          "TODO": {
              "foreground": "#FFFFFF",
-             "background": "#E6B451",
-             "type": "whole-line",
+             "background": "#feeb59",
+             "type": "tag-and-comment",
          },
          "BUG": {
              "foreground": "#FFFFFF",
@@ -61,12 +155,11 @@
 
     "explorer.incrementalNaming": "smart",
     "editor.stickyScroll.enabled": true,
-	"editor.occurrencesHighlight": false,
+	"editor.occurrencesHighlight": "off",
     "editor.cursorBlinking": "expand",
 	"window.restoreWindows": "none",
 	"window.autoDetectColorScheme": true,
-	"zenMode.restore": false,
-	"zenMode.hideTabs": false,
+    "zenMode.restore": false,
 	"zenMode.hideLineNumbers": false,
     "zenMode.fullScreen": false,
 	"diffEditor.wordWrap": "off",
@@ -79,6 +172,10 @@
 	"editor.hover.delay": 700,
 	"editor.renderControlCharacters": false,
 	"editor.wordWrap": "off",
+    "[markdown]":{
+        "editor.wordWrap": "off",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
 	"editor.guides.indentation": false,
 	"editor.guides.bracketPairs": false,
 	"editor.hover.sticky": false,
@@ -93,9 +190,10 @@
 	"editor.autoClosingQuotes": "never",
 	"editor.autoClosingOvertype": "never",
 	"editor.accessibilitySupport": "off",
-	"editor.quickSuggestions": {"strings": true},
-	"workbench.editor.untitled.hint": "hidden",
-	"workbench.startupEditor": "newUntitledFile",
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+	"workbench.startupEditor": "none",
 	"workbench.editor.splitOnDragAndDrop": false,
 	"workbench.reduceMotion": "off",
 	"workbench.welcomePage.walkthroughs.openOnInstall": false,
@@ -106,12 +204,10 @@
 	"terminal.integrated.defaultProfile.osx": "zsh",
 	"terminal.integrated.fontSize": 13,
 	"terminal.integrated.cursorWidth": 2,
-	"terminal.integrated.cursorBlinking": true,
-	"terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.rightClickBehavior": "default",
 	"terminal.integrated.tabs.focusMode": "singleClick",
-	"terminal.integrated.tabs.defaultIcon": "primitive-dot",
-    "terminal.integrated.tabs.showActiveTerminal": "never",
+    "terminal.integrated.tabs.defaultIcon": "arrow-small-right",
 	"terminal.integrated.smoothScrolling": true,
 	"terminal.integrated.persistentSessionScrollback": 100,
 	"terminal.integrated.env.osx": {
@@ -236,7 +332,10 @@
 	// "volar.icon.splitEditors": false,
 
     "emmet.triggerExpansionOnTab": true,
-    "files.associations": {"*.html": "html", "*.twig": "html",},
+    "files.associations": {
+        "*.html": "html",
+        "*.twig": "twig"
+    },
     "emmet.useInlineCompletions": true,
 
 	// 	▢=============================================================================▢
@@ -279,7 +378,7 @@
 	// PYTHON
 	"python.jediEnabled": false,
 	"python.languageServer": "Pylance",
-	"python.defaultInterpreterPath": "/Users/suowei_hu/opt/anaconda3/bin/python",
+	"python.defaultInterpreterPath": "",
 	"extensions.experimental.affinity": {
 		"ms-toolsai.jupyter": 2,
 		"ms-toolsai.jupyter-renderers": 2,
@@ -359,13 +458,12 @@
 	],
 	"diffEditor.ignoreTrimWhitespace": false,
 	"window.openFoldersInNewWindow": "off",
-	"window.title": "${rootName}",
+	"window.title": "",
 	"window.openFilesInNewWindow": "on",
 	"java.inlayHints.parameterNames.enabled": "none",
 	"editor.inlayHints.padding": true,
 	"javascript.inlayHints.enumMemberValues.enabled": true,
-	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-    "audioCues.noInlayHints": "off",
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
 	"java.debug.settings.hotCodeReplace": "auto",
 	"gitlens.views.commits.files.layout": "list",
 	"git.showPushSuccessNotification": true,
@@ -385,10 +483,10 @@
     "debug.console.closeOnEnd": false,
     "search.showLineNumbers": true,
     "editor.smoothScrolling": true,
-    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.verticalScrollbarSize": 0,
     "editor.stickyScroll.maxLineCount": 8,
     "workbench.editor.sharedViewState": true,
-    "editor.scrollBeyondLastColumn": 0,
+    "editor.scrollBeyondLastColumn": 30,
     "editor.find.addExtraSpaceOnTop": false,
     "editor.padding.top": 100,
     "java.debug.settings.showQualifiedNames": true,
@@ -407,12 +505,10 @@
     },
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editor.tabSizing": "shrink",
     "files.hotExit": "onExitAndWindowClose",
     "workbench.editor.closeOnFileDelete": true,
-    "markdown.editor.drop.enabled": false,
+    "markdown.editor.drop.enabled": "never",
     "editor.dropIntoEditor.enabled": false,
-    "workbench.editor.closeEmptyGroups": false,
     "workbench.editor.wrapTabs": true,
     "material-ui-snippets.showNotesOnStartup": false,
     "vscode-edge-devtools.browserFlavor": "Default",
@@ -434,14 +530,12 @@
         "editor.defaultFormatter": "mblode.twig-language-2"
     },
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": true,
         "markdown": false,
         "scminput": false
     },
     "terminal.external.osxExec": "/Applications/Warp.app",
-    "terminal.integrated.tabs.location": "left",
-    "terminal.integrated.tabs.hideCondition": "singleGroup",
     "workbench.list.smoothScrolling": true,
     "terminal.integrated.fastScrollSensitivity": 1,
 
@@ -499,7 +593,6 @@
     "editor.minimap.enabled": false,
     "html.autoCreateQuotes": false,
     "php.executablePath": "/opt/homebrew/bin/PHP",
-    "explorer.sortOrder": "type",
     "explorer.compactFolders": false,
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
@@ -509,11 +602,63 @@
     "markdown.copyFiles.destination": {
         "/docs/**/*": "images/${documentBaseName/(.).*/$1/}/"
     },
-    "workbench.editor.tabCloseButton": "off",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "workbench.activityBar.visible": false,
     "breadcrumbs.filePath": "last",
-    "workbench.statusBar.visible": false,
-    "terminal.integrated.tabs.title": "terminal - [${process}] - ${cwd}"
+    "terminal.integrated.tabs.title": "${cwd}",
+    "terminal.integrated.confirmOnKill": "never",
+    "workbench.editor.enablePreview": false,
+    "security.promptForLocalFileProtocolHandling": false,
+    "editor.scrollbar.vertical": "hidden",
+    "breadcrumbs.enabled": false,
+    "cSpell.enabled": false,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.wordWrapColumn": 800,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorStyleInactive": "block",
+    "workbench.iconTheme": "vs-minimal",
+    "search.decorations.colors": false,
+    "explorer.decorations.colors": false,
+    "workbench.editor.decorations.colors": false,
+    "git.decorations.enabled": false,
+    "accessibility.signals.noInlayHints": {
+        "sound": "off"
+    },
+    "explorer.sortOrder": "mixed",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editor.autoLockGroups": {
+        "terminalEditor": false,
+        "mainThreadWebview-simpleBrowser.view": false,
+        "mainThreadWebview-browserPreview": false
+    },
+
+    // Auto Hide Plugin 1
+    "autoHide.hideOnOpen":true,
+    "autoHide.autoHideSideBar":true,
+    "autoHide.autoHidePanel":true,
+    "autoHide.autoHideReferences":true,
+    "autoHide.sideBarDelay":0, //default: 450
+    "autoHide.panelDelay": 0, // default: 300
+
+    // Auto Hide Plugin 2
+    "terminalAutoPanel.hideOnClickEditor": true,
+    "terminalAutoPanel.preventHideOnClickTerminal": false,
+    "terminalAutoPanel.toggleOnWindowFocus": false, //default: 300
+
+    "window.closeWhenEmpty": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "files.dialog.defaultPath": "/Users/suowei_hu/Desktop",
+    "workbench.activityBar.location": "hidden",
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.tabs.showActiveTerminal": "never",
+    "terminal.integrated.tabs.hideCondition": "never",
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabSizingFixedMinWidth": 38,
+    "workbench.editor.tabSizingFixedMaxWidth": 38,
 }
