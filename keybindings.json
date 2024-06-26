@@ -1929,10 +1929,6 @@
         "when": "terminalFocusInAny && terminalHasBeenCreated && !terminalAltBufferActive || terminalFocusInAny && terminalProcessSupported && !terminalAltBufferActive"
     },
     {
-        "key": "cmd+k cmd+p",
-        "command": "gotofolder.quickOpenFolder"
-    },
-    {
         "key": "cmd+k cmd+\\",
         "command": "-workbench.action.splitEditorDown"
     },
@@ -1982,7 +1978,7 @@
         "command": "revealFileInOS"
     },
     {
-        "key": "cmd+k shift+cmd+p",
+        "key": "cmd+k cmd+p",
         "command": "workbench.action.files.openFolder"
     },
     {
@@ -2038,11 +2034,6 @@
         "command": "workbench.files.action.focusOpenEditorsView"
     },
     {
-        "key": "cmd+[",
-        "command": "workbench.files.action.collapseExplorerFolders",
-        "when": "filesExplorerFocus"
-    },
-    {
         "key": "cmd+k cmd+v",
         "command": "toggleVim"
     },
@@ -2082,7 +2073,7 @@
         "command": "timeline.focus"
     },
     {
-        "key": "cmd+t",
+        "key": "cmd+k cmd+t",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
@@ -2143,25 +2134,9 @@
         "when": "resource == 'vscode-userdata:/Users/suowei_hu/Library/Application%20Support/Code/User/keybindings.json'"
     },
     {
-        "key": "ctrl+shift+cmd+n",
-        "command": "workbench.action.moveEditorToNewWindow"
-    },
-    {
         "key": "cmd+k cmd+n",
         "command": "-git.unstageSelectedRanges",
         "when": "isInDiffEditor && !operationInProgress"
-    },
-    {
-        "key": "ctrl+cmd+n",
-        "command": "workbench.action.moveEditorToNewWindow"
-    },
-    {
-        "key": "cmd+k cmd+n",
-        "command": "workbench.action.moveEditorToNewWindow"
-    },
-    {
-        "key": "cmd+k cmd+t",
-        "command": "workbench.action.createTerminalEditorSide"
     },
     {
         "key": "cmd+k cmd+w",
@@ -2170,5 +2145,230 @@
     {
         "key": "alt+cmd+t",
         "command": "-workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "cmd+k shift+cmd+t",
+        "command": "workbench.action.terminal.openNativeConsole"
+    },
+    {
+        "key": "cmd+k cmd+t",
+        "command": "workbench.action.createTerminalEditor"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "-workbench.action.terminal.splitActiveTab",
+        "when": "terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "cmd+c",
+        "command": "-filesExplorer.copy",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !inputFocus"
+    },
+    {
+        "key": "cmd+x",
+        "command": "-filesExplorer.cut",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "cmd+backspace",
+        "command": "-deleteFile",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceMoveableToTrash && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "-explorer.openAndPassFocus",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+    },
+    {
+        "key": "cmd+v",
+        "command": "-filesExplorer.paste",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "space",
+        "command": "-filesExplorer.openFilePreserveFocus",
+        "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+    },
+    {
+        "key": "right",
+        "command": "-nextCompressedFolder",
+        "when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedLastFocus && !inputFocus"
+    },
+    {
+        "key": "left",
+        "command": "-previousCompressedFolder",
+        "when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedFirstFocus && !inputFocus"
+    },
+    {
+        "key": "delete",
+        "command": "-moveFileToTrash",
+        "when": "explorerResourceMoveableToTrash && filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "home",
+        "command": "-firstCompressedFolder",
+        "when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedFirstFocus && !inputFocus"
+    },
+    {
+        "key": "end",
+        "command": "-lastCompressedFolder",
+        "when": "explorerViewletCompressedFocus && filesExplorerFocus && foldersViewVisible && !explorerViewletCompressedLastFocus && !inputFocus"
+    },
+    {
+        "key": "escape",
+        "command": "-filesExplorer.cancelCut",
+        "when": "explorerResourceCut && filesExplorerFocus && foldersViewVisible && !inputFocus"
+    },
+    {
+        "key": "shift+alt+f",
+        "command": "-filesExplorer.findInFolder",
+        "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !inputFocus"
+    },
+    {
+        "key": "cmd+backspace",
+        "command": "-moveFileToTrash",
+        "when": "explorerResourceMoveableToTrash && filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "-explorer.openToSide",
+        "when": "explorerViewletFocus && foldersViewVisible && !inputFocus"
+    },
+    {
+        "key": "cmd+[",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "cmd+]",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "cmd+]",
+        "command": "-markdown.extension.onIndentLines",
+        "when": "editorTextFocus && !suggestWidgetVisible && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "cmd+[",
+        "command": "-markdown.extension.onOutdentLines",
+        "when": "editorTextFocus && !suggestWidgetVisible && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    {
+        "key": "cmd+k cmd+o",
+        "command": "workbench.action.files.openFolder"
+    },
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "shift+cmd+n",
+        "command": "explorer.newFolder",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "cmd+n",
+        "command": "workbench.action.files.newUntitledFile",
+        "when": "!filesExplorerFocus"
+    },
+    {
+        "key": "cmd+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+shift+cmd+n",
+        "command": "workbench.action.moveEditorToNewWindow"
+    },
+    {
+        "key": "cmd+k cmd+n",
+        "command": "workbench.action.moveEditorToNewWindow"
+    },
+    {
+        "key": "cmd+k p",
+        "command": "-workbench.action.files.copyPathOfActiveFile"
+    },
+    {
+        "key": "cmd+c",
+        "command": "filesExplorer.copy",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "cmd+v",
+        "command": "filesExplorer.paste",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "alt+cmd+c",
+        "command": "-toggleFindCaseSensitive",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+c",
+        "command": "-workbench.action.terminal.toggleFindCaseSensitive",
+        "when": "terminalFindVisible && terminalHasBeenCreated || terminalFindVisible && terminalProcessSupported"
+    },
+    {
+        "key": "alt+cmd+c",
+        "command": "-toggleSearchEditorCaseSensitive",
+        "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+        "key": "alt+cmd+c",
+        "command": "copyFilePath"
+    },
+    {
+        "key": "alt+cmd+c",
+        "command": "-copyFilePath",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "cmd+k shift+cmd+t",
+        "command": "workbench.action.terminal.openNativeConsole",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k cmd+enter",
+        "command": "workbench.action.terminal.openNativeConsole",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+w",
+        "command": "workbench.action.closeEditorsInGroup"
+    },
+    {
+        "key": "cmd+k shift+cmd+w",
+        "command": "workbench.action.closeEditorInAllGroups"
+    },
+    {
+        "key": "alt+cmd+w",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "alt+cmd+w",
+        "command": "-toggleSearchWholeWord",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+cmd+w",
+        "command": "-toggleFindWholeWord",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+cmd+w",
+        "command": "-workbench.action.terminal.toggleFindWholeWord",
+        "when": "terminalFindVisible && terminalHasBeenCreated || terminalFindVisible && terminalProcessSupported"
+    },
+    {
+        "key": "alt+cmd+w",
+        "command": "-toggleSearchEditorWholeWord",
+        "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+        "key": "ctrl+cmd+n",
+        "command": "workbench.action.moveEditorToNewWindow"
+    },
+    {
+        "key": "cmd+t",
+        "command": "workbench.action.createTerminalEditor"
     }
 ]
