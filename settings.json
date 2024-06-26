@@ -3,9 +3,8 @@
 	"security.workspace.trust.banner": "always",
 
     // Color Theme
-    "workbench.colorTheme"                           : "Ayu Light",
-    "workbench.preferredLightColorTheme"             : "Ayu Light",
-    "workbench.preferredDarkColorTheme"              : "Ayu Dark",
+    "workbench.colorTheme": "Ayu Light",
+    "workbench.preferredDarkColorTheme"              : "Monokai Dimmed",
 
     //Color Customization
 	"workbench.colorCustomizations": {
@@ -75,6 +74,19 @@
         },
         // ███████████████████████████████████████████████ LIGHT COLOR
         "[Ayu Light]": {
+            // peek view
+            "peekView.border":                             "#c2a057",
+            "peekViewTitle.background":                    "#c2a057",
+            "peekViewEditor.background":                   "#231e12",
+            "peekViewResult.background":                   "#4d3f22",
+            "peekViewTitleLabel.foreground":               "#000000",
+            "peekViewTitleDescription.foreground":         "#000000",
+            "peekViewResult.fileForeground":               "#e5e5e5",
+            "peekViewResult.lineForeground":               "#e5e5e5",
+            "peekViewResult.matchHighlightBackground":     "#00000000",
+            "peekViewResult.selectionBackground":          "#4C4022",
+            "peekViewEditor.matchHighlightBackground":     "#00000000",
+            "peekViewEditor.matchHighlightBorder":         "#C3A057",
             // "button.background":                           "#fff9eb",
             // "button.border":                               "#ffedc7",
             // "button.foreground":                           "#E7D7B9",
@@ -237,8 +249,7 @@
 	"terminal.integrated.cursorWidth": 2,
     "terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.rightClickBehavior": "default",
-	"terminal.integrated.tabs.focusMode": "singleClick",
-    "terminal.integrated.tabs.defaultIcon": "record-keys",
+    "terminal.integrated.tabs.focusMode": "singleClick",
 	"terminal.integrated.smoothScrolling": true,
 	"terminal.integrated.persistentSessionScrollback": 100,
 	"terminal.integrated.env.osx": {
@@ -553,7 +564,6 @@
     },
     "json.format.enable": false,
     "editor.inlineSuggest.enabled": true,
-    "explorer.confirmDragAndDrop": false,
     "hediet.vscode-drawio.resizeImages": true,
     "[twig]": {
         "editor.defaultFormatter": "mblode.twig-language-2"
@@ -630,7 +640,7 @@
         "/docs/**/*": "images/${documentBaseName/(.).*/$1/}/"
     },
     "breadcrumbs.filePath": "last",
-    "terminal.integrated.tabs.title": "terminal ${sequence}",
+    "terminal.integrated.tabs.title": "terminal",
     "terminal.integrated.confirmOnKill": "never",
     "workbench.editor.enablePreview": false,
     "security.promptForLocalFileProtocolHandling": false,
@@ -685,18 +695,17 @@
     "workbench.editor.tabSizingFixedMinWidth": 38,
     "workbench.editor.tabSizingFixedMaxWidth": 38,
     "github.copilot.editor.enableAutoCompletions": true,
-    "workbench.editor.showTabs": "none",
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
-    "workbench.statusBar.visible": false,
     "explorer.compactFolders": false,
     "editor.minimap.showSlider": "always",
     "breadcrumbs.icons": false,
-    "breadcrumbs.enabled": false,
     "editor.minimap.autohide": true,
     "editor.peekWidgetDefaultFocus": "editor",
-    "workbench.activityBar.location": "hidden",
-    "explorer.enableDragAndDrop": false,
     "explorer.confirmPasteNative": false,
+    "workbench.preferredLightColorTheme": "Monokai Dimmed",
+    "editor.minimap.enabled": false,
+    "redhat.telemetry.enabled": true,
+    "workbench.activityBar.location": "hidden",
 }
